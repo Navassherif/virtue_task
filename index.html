@@ -1,0 +1,39 @@
+                                                                                                                                                                     <!DOCTYPE html>
+                                                                                                                                                                     <html lang="en">
+                                                                                                                                                                     <head>
+                                                                                                                                                                        <meta charset="UTF-8">
+                                                                                                                                                                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                                                                                                                                                                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                                                                                                                                                        <link rel="stylesheet" href="index.css">
+                                                                                                                                                                        <title>Document</title>
+                                                                                                                                                                     </head>
+                                                                                                                                                                     <body>
+                                                                                                                                                                        <div class="container">
+                                                                                                                                                                           <div class="timemis">
+                                                                                                                                                                              <p>Time:<span id="time">0</span></p>
+                                                                                                                                                                              <p>mistake:<span id="mistake">0</span></p>
+
+
+                                                                                                                                                                           </div>
+                                                                                                                                                                           <div id="quote" onmousedown="return false" onselectstart="return false">
+                                                                                                                                                                              
+
+
+                                                                                                                                                            </div>
+                                                                                                                                                            <textarea rows="3" id="q_input" placeholder="type here"></textarea>
+                                                                                                                                                            <button id="start" onclick="starttest()">run test</button>
+                                                                                                                                                            <button id="stop" onclick="displayResult()">end test</button>
+                                                                                                                                                            <div class="output">
+                                                                                                                                                               <h3>result</h3>
+                                                                                                                                                               <div class="wrapper">
+                                                                                                                                                                  <p>accuracy:<span id="accuracy"></span></p>
+                                                                                                                                                                  <p>speed:<span id="wpm"></span></p>
+
+
+                                                                                                                                                               </div>
+                                                                                                                                                            </div>
+
+                                                                                                                                                                        </div>
+                                                                                                                                                                        <script src="test.js"></script>
+                                                                                                                                                                     </body>
+                                                                                                                                                                     </html>                                                                                                                                                                   
